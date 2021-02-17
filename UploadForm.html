@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload Form</title>
+</head>
+<body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <h2>Upload File</h2>
+		
+		<label>Name of the File:</label>
+		<input type="text" placeholder="Enter File Name" name="Filename" required></input>
+		<br>
+		<label>File</label>
+		<input type="file" name="actfile">
+		<br>
+		<input type="submit" name="submit" value="Upload">
+    </form>
+</body>
+</html> 
